@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PandA Lab</title>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 30%;
+      margin: auto;
+  }
+  </style>
+
+<style type="text/css">
+    body{
+    	padding-top: 70px;
+    }
+    font-family:"Helvetica Neue", Arial, sans-serif;
+      font-weight:100;
+      -webkit-font-smoothing:antialiased;
+   }
+</style>
+</head>
+<body>
+
+
+
+<!-- ######################################################################## NAVIGATION BAR ######################################################################## -->
+
+<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-trin navbar-fixed-top" role="navigation">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+		<a class="navbar-brand" data-toggle = "tab" href="#start">PandA Laboratory</a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="nav navbar-nav nav-tabs-nostyle navbar-right" style="border-bottom:0px">
+				<li class = "dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#" data-toggle="collapse" data-target=".nav-collapse.in">HOME<b class="caret"></b></a>
+				<ul class="dropdown-menu dropdown-menu-left" role = "menu">
+					<li><a data-tab-boop ="tab" href = "#start">About</a></li>
+                        		<li><a data-tab-boop="peop" href="#proj">Research Projects</a></li>
+                        		<li><a href="#start">Bio</a></li>
+                        		<!--<li class="divider"></li>
+                        		<li><a href="#start">Trash</a></li>-->
+                    		</ul>
+				</li>
+				<li><a data-toggle="tab" href = "#peop" data-tab-boop="collapse" data-target=".nav-collapse.show">PEOPLE</a></li>
+				<li><a data-toggle="tab" href = "#pubs" data-toggle="collapse" data-target=".nav-collapse.show">PUBLICATIONS</a></li>
+				<li><a data-toggle="tab" href = "#contact" data-toggle="collapse" data-target=".nav-collapse.show">CONTACT</a></li>
+				<li><a data-toggle="tab" href = "#med" data-toggle="collapse" data-target=".nav-collapse.show">MEDIA</a></li>             
+                		</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- ######################################################################## TAB ######################################################################## -->
+<!-- ######################################################################### 1 ######################################################################### -->
+<div class="container font-weight-light text-justify">
+<div class = "tab-content">
+<!-- ######################################################################## ABOUT SECTION ######################################################################## -->
+<div id ="start" class="tab-pane fade in active">
+
+
+<!--Logo/greeting-->
+	<div class="text-center">
+		<figure class = "figure">
+	 	<img class = "img-responsive center-block"src="img/hart.jpg" width="150" height="150">
+		</figure>
+	<h1>Welcome to the PandA LAB</h1>
+	</div>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<!--Carousel-->
+	<div class="container-fluid">
+	  <br>
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	    <!-- Indicators -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	      <li data-target="#myCarousel" data-slide-to="2"></li>
+	      <li data-target="#myCarousel" data-slide-to="3"></li>
+	    </ol>
+
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner" role="listbox">
+
+	      <div class="item active">
+		<img class = "img-responsive center-block" src="img/s2.jpg" width="200" height="200">
+		<div class="carousel-caption">
+		  <h3>Chania</h3>
+		  <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+		</div>
+	      </div>
+
+	      <div class="item">
+		<img class = "img-responsive center-block"src= "img/s1.jpg" width="200" height="200">
+		<div class="carousel-caption">
+		  <h3>Chania</h3>
+		  <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+		</div>
+	      </div>
+	    
+	      <div class="item">
+		<img class = "img-responsive center-block"src="img/uw.jpg" width="200" height="200">
+		<div class="carousel-caption">
+		  <h3>Flowers</h3>
+		  <p>Beautiful flowers in Kolymbari, Crete.</p>
+		</div>
+	      </div>
+
+	      <div class="item">
+		<img class = "img-responsive center-block"src="img/hart.jpg" width="200" height="200">
+		<div class="carousel-caption">
+		  <h3>Flowers</h3>
+		  <p>Beautiful flowers in Kolymbari, Crete.</p>
+		</div>
+	      </div>
+	  
+	    </div>
+
+	    <!-- Left and right controls -->
+	    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
+	  </div>
+	</div>
+<!-- spacing -->
+	<div id="proj" class="col-xs-12" style="height:50px;"></div>
+<!-- ######################################################################## PROJECTS ######################################################################## -->
+
+	<h2>PROJECTS</h2>
+
+<!-- research interest -->
+	<div class=text-justify>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</br>
+
+<!-- research project 1 -->
+	<div class="row">
+
+		<div class="col-sm-4">
+		</br>
+		<figure class = "figure">
+	 	<img class = "img-responsive center-block"src="img/hart.jpg" width="640" height="640">
+		</figure>
+		</div>
+
+		<div class="col-sm-8">
+		<h3 class = "text-trin">Gaze Controlled Interface</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+
+<!-- research project 2 -->
+	<div class="row">
+		<div class="col-sm-4">
+		</br>
+		<figure class = "figure">
+		 <img class = "img-responsive center-block"src="img/hart.jpg" width="640" height="640">
+		</figure>
+		</div>
+
+		<div class="col-sm-8">
+		<h3 class = "text-trin">Virtual Reality Headset Visual Psychophysics</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+
+<!-- research project 3 -->
+	<div class="row">
+		<div class="col-sm-4">
+		</br>
+		<figure class = "figure">
+		 <img class = "img-responsive center-block"src="img/hart.jpg" width="640" height="640">
+		</figure>
+		</div>
+
+		<div class="col-sm-8">
+		<h3 class = "text-trin">Virtual Reality Mediated Teleoperation</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+<!-- ######################################################################## BIO ######################################################################## -->
+
+<h2 id="bio">BIO</h2>
+
+<!-- pic and info -->
+	<div class="row">
+
+		<div class="col-sm-6 text-right">
+		 <img src="img/circ.png" class="img-fluid"  width="200" height="200" alt="Responsive image">
+		</div>
+
+		<div class="col-sm-6">
+			
+		<h4>KEVIN HUANG, PHD </h4>
+		<h6>PRINCIPAL INVESTIGATOR</h6>
+		Assistant Professor of Engineering<br>
+		Department of Engineering<br>
+		Trinity College, Hartford CT USA<br><br>
+		<h6>Office: MECC 327<br>
+		Lab: MECC 060</h6>
+		</div>
+	</div>
+
+<!-- short bio paragraph -->
+	<div class="row">
+		<div class="col-sm-3"></div> <!-- spacer -->
+		<div class="col-sm-6 text-justify">
+</br>Kevin Huang graduated from Trinity College earning a BS with Honors in Mathematics and Honors in Engineering in 2012. He then earned his Ph.D. in Electrical Engineering at the Universtiy of Washington's BioRobotics Lab in 2017. That summer, Kevin started as Assistant Professor at Trinity College where he leads the PandA lab. He is also an Affiliate Assistant Professor with the Department of Electrical Engineering at the University of Washington. Kevin teaches several courses within the Trinity College Engineering curriculum:</br></br>
+			<ul>
+			  <li>ENGR 120 - Introduction to Engineering Design: Mobile Robots</li>
+			  <li>ENGR 221 - Digital Circuits and Systems</li>
+			  <li>ENGR 305 - Microelectronic Circuits</li>
+			  <li>ENGR 312 - Automatic Control Systems</li>
+			</ul>
+		</div>
+		<div class="col-sm-3"></div> <!-- spacer -->
+	</div>
+
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+
+<!-- graphical bio -->
+
+	
+	<div class="row">
+	<!-- pic 1 -->
+		<div class="col-sm-3 text-center">
+		</br>
+		<img src="img/s2.jpg" class="img-circle img-fluid"  width="150" height="150" alt="Responsive image"></br></br>
+		SEATTLE, WA</br>
+		Born and raised
+		</div>
+	<!-- pic 2 -->
+		<div class="col-sm-3 text-center"></br>
+		<img src="img/hart.jpg" class="img-circle img-fluid"  width="150" height="150" alt="Responsive image"></br></br>
+		HARTFORD, CT</br>
+		Bachelor of Science
+		</div>
+	<!-- pic 3 -->
+		<div class="col-sm-3 text-center"></br>
+		<img src="img/uw.jpg" class="img-circle img-fluid"  width="150" height="150" alt="Responsive image"></br></br>
+		SEATTLE, WA</br>
+		Doctor of Philosophy
+		</div>
+	<!-- pic 4 -->
+		<div class="col-sm-3 text-center"></br>
+		<img src="img/trin.jpg" class="img-circle img-fluid"  width="150" height="150" alt="Responsive image"></br></br>
+		HARTFORD, CT</br>
+		Engineering Faculty
+		</div>
+	</div>
+
+<!-- Copyright-->
+	<hr>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<footer>
+				<p>&copy; Copyright 2018 Kevin Huang, Updated April 25, 2018</p>
+			</footer>
+		</div>
+	</div>
+
+</div>
+</div>
+
+<!-- ######################################################################## TAB ######################################################################## -->
+<!-- ######################################################################### 2 ######################################################################### -->
+<div id="peop" class="tab-pane fade">
+	<div class = "container-fluid">
+		<div class="text-center">
+		<h2>PEOPLE</h2>
+		</div>
+<!-- FACULTY -->
+	<h3 class = "text-trin">Faculty</h3>
+<!-- Person 1 -->
+	<div class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive center-block"src="img/circ.png" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Kevin Huang </strong> graduated from Trinity College earning a BS with Honors in Mathematics and Honors in Engineering in 2012. He then earned his Ph.D. in Electrical Engineering at the Universtiy of Washington's BioRobotics Lab in 2017. That summer, Kevin started as Assistant Professor at Trinity College where he leads the PandA lab. He is also an Affiliate Assistant Professor with the Department of Electrical Engineering at the University of Washington.</br></br>
+contact: kevin dot huang at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+
+<!-- STUDENTS -->
+<h3 class = "text-trin">Students</h3>
+
+
+
+
+<!-- Person 5 -->
+	<div class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive img-circle center-block"src="img/people/khalil.jpg" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Mahmoud Khalil '20</strong> Mahmoud Khalil ’20 comes from Beirut, Lebanon and graduated from International College Beirut with Distinction. At Trinity College, Mahmoud plans to pursue a major in Electrical Engineering with a minor in Math and Modeling. He is a member of IEEE trinity club and is participating in research concerned with robotics and virtual reality. He assumed an internship position last summer in Middle East airlines in the electrical department. After graduation, Mahmoud is planning on completing his Masters in Electrical Engineering followed by an MBA.</br></br>
+contact: mahmood dot khalil at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+
+<!-- Person 6 -->
+	<div class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive img-circle center-block"src="img/people/melesse.jpg" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Daniel Melesse '20</strong> I am Daniel Melesse from Bahir Dar, Ethiopia. I am currently double majoring in Electrical Engineering and Mathematics, and minoring in Models and Data. In the summer of my freshman year, I worked on an applied Math research under the guidance of Professor Ryan Pellico. My research title was "Synchronization in Nonlinear Harmonic Oscillator". Since the fall of 2017, I have been working on different research projects under the supervision of professor Kevin Haung in the PandA Lab. We worked in collaboration with the Psychology department to design a virtual reality vision software. Additionally, I have been working on research project titled "A Data Driven Approach for Automatic Gaze-Tracking". For this research we submitted a paper to the 14th IEEE International Conference on Signal Processing. My plan is to do a PhD in signal processing/machine learning.</br></br>
+contact: daniel dot melesse at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+<!-- Person 7 -->
+	<div class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive img-circle center-block"src="img/people/drescher.jpg" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Kirk Boyd '21</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br></br>
+contact: kirkland dot boyd at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+<!-- Person 7 -->
+	<div class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive img-circle center-block"src="img/people/drescher.jpg" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Logan Drescher '21</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br></br>
+contact: logan dot drescher at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+
+<!-- Person 8 -->
+	<div id = "proj" class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive img-circle center-block"src="img/people/evelyn2.png" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Evelyn Luciani '21</strong> Hi! My name is Evelyn Luciani and I am a rising sophomore at Trinity College. I’m looking to double major in electrical engineering and neuroscience, and I am very interested in working with robotics in the future. I am currently working on developing a gaze tracking system in Professor Huang’s lab, and I look forward to seeing what we come up with for future projects. Outside of engineering, I enjoy drawing, photography, growing plants, and eating mashed potatoes. </br></br>
+contact: evelyn.luciani at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+<!-- ALUMNI -->
+<h3 class = "text-trin">Alumni</h3>
+<!-- Person 1 -->
+	<div class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive img-circle center-block"src="img/people/avagyan.jpg" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Mariam Avagyan '18</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br></br>
+contact: mariam dot avagyan at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+
+<!-- Person 2 -->
+	<div class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive img-circle center-block"src="img/people/chen.jpg" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Kun Chen '18</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br></br>
+contact: kun dot chen at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+
+<!-- Person 3 -->
+	<div class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive img-circle center-block"src="img/people/dahal2.jpg" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Prawesh Dahal '18</strong> Prawesh Dahal received his B.S. in Engineering and Physics in May 2018. He is currently pursuing his M.S. and Ph.D. in Electrical Engineering at Columbia University. His interest lies in the development of neural interface devices to better understand the human brain. While at Trinity, Prawesh conducted research within both Physics and Engineering Department starting his freshman year. His primary research involved nonlinear and chaotic analysis of hippocampal EEG. He was also a part of the PandA lab during his senior year where he worked on virtual-reality mediated telerobotics.  In his free time, Prawesh enjoys art and drawing (mostly pen and ink sketches). He is also very passionate about cooking.</br></br>
+contact: prawesh dot dahal at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+<!-- Person 4 -->
+	<div class="row align-items-center">
+		<div class="col-sm-2"></div><!-- spacer -->
+		<div class="col-sm-2">
+			</br>
+			<figure class = "figure">
+			 <img class = "img-responsive img-circle center-block"src="img/people/xing2.jpg" width="200" height="200">
+			</figure>
+		</div>
+		<div class="col-sm-6 align-self-center" ></br>
+<strong>Daming Xing '18</strong> Daming Xing, from Beijing, China, graduated in 2018 with Bachelor of Science in Engineering with Mechanical concentration and was a member of Trinity College Swimming and Diving Team. He began working in the PandA Lab in 2017. There he had tested out the 7 Degrees of Freedom robotics arm Sawyer from Rethink Robotics using Robot Operating System (ROS), assisted in the writing and completion of the project and publishing “An Intelligent Sensor-Driven Skydive Tracking System” with Professor Huang at ICIUS 2018. Outside of classes, he is also very into film production. Most of his work is uploaded to <a href = "http://www.damingxingpictures.com" target = "blank">damingxingpictures.com</a></br></br>
+contact: daming dot xing at trincoll dot edu
+		</div>
+		<div class="col-sm-2"></div><!-- spacer -->
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+
+<!-- Copyright-->
+	<hr>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<footer>
+				<p>&copy; Copyright 2018 Kevin Huang, Updated April 25, 2018</p>
+			</footer>
+		</div>
+	</div>
+
+</div>
+</div>
+
+
+<!-- ######################################################################## TAB ######################################################################## -->
+<!-- ######################################################################### 3 ######################################################################### -->
+	<div id="pubs" class="tab-pane fade">
+		<div class = "container-fluid">
+				<div class="text-center">
+				<h2>PUBLICATIONS</h2>
+				</div>
+		</div>
+
+<!-- WORKING -->
+<h3 class = "text-trin">Working</h3>
+
+Virtual-reality mediated robotic teleoperation
+
+An intelligent sensor-driven skydive tracking system
+
+A data-driven approach for automatic gaze tracking
+
+
+<!-- PUBLISHED -->
+<h3 class = "text-trin">Published</h3>
+
+Real-time vision-based surgical tool segmentation with robot kinematics prior
+
+Performance evaluation of haptically enabled sEMG
+
+Towards real-time surface tracking and motion compensation integration for robotic surgery
+
+
+
+
+
+<!-- Copyright-->
+		<hr>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<footer>
+					<p>&copy; Copyright 2018 Kevin Huang, Updated April 25, 2018</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+<!-- ######################################################################## TAB ######################################################################## -->
+<!-- ######################################################################### 4 ######################################################################### -->
+	<div id="contact" class="tab-pane fade">
+	<div class = "container-fluid">
+		<div class="text-center">
+		<h2>CONTACT US</h2>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:20px;"></div>
+		<h5>LEAVE A MESSAGE</h5>
+		</div>
+	</div>
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+
+
+<!--message-->
+	<form id="contact-form" method="post" action="contact.php" role="form">
+
+	    <div class="messages"></div>
+
+	    <div class="controls">
+
+		<div class="row">
+		    <div class="col-md-2"></div>
+		    <div class="col-md-4">
+		        <div class="form-group">
+		            <label for="form_name">First Name *</label>
+		            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+		            <div class="help-block with-errors"></div>
+		        </div>
+		    </div>
+		    <div class="col-md-4">
+		        <div class="form-group">
+		            <label for="form_lastname">Last Name *</label>
+		            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+		            <div class="help-block with-errors"></div>
+		        </div>
+		    </div>
+		    <div class="col-md-2"></div>
+		</div>
+		<div class="row">
+		    <div class="col-md-2"></div>
+		    <div class="col-md-4">
+		        <div class="form-group">
+		            <label for="form_email">Email *</label>
+		            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+		            <div class="help-block with-errors"></div>
+		        </div>
+		    </div>
+		    <div class="col-md-4">
+		        <div class="form-group">
+		            <label for="form_phone">Phone</label>
+		            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+		            <div class="help-block with-errors"></div>
+		        </div>
+		    </div>
+		    <div class="col-md-2"></div>
+		</div>
+		<div class="row">
+		    <div class="col-md-2"></div>
+		    <div class="col-md-8">
+		        <div class="form-group">
+		            <label for="form_message">Message *</label>
+		            <textarea id="form_message" name="message" class="form-control" placeholder="Message Text*" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+		            <div class="help-block with-errors"></div>
+		        </div>
+		    </div>
+		    <div class="col-md-2"></div>
+		</div>
+		<div class="row">
+		    <div class="col-md-2"></div>
+		    <div class="col-md-8">
+		        <input type="submit" class="btn btn-success btn-send" value="SEND MESSAGE">
+		    </div>
+		    <div class="col-md-2"></div>
+		</div>
+	    </div>
+
+	</form>	
+<!-- spacing -->
+	<div class="col-xs-12" style="height:50px;"></div>
+<!--connect-->
+	<div class="text-center">
+	<h5>OR CONNECT WITH US</h5>
+	</div>
+	<div class="row">
+		<div class = "col-sm-3">
+		</div>
+		<div class = "col-sm-1">
+			<a href="mailto:trin.panda.lab@gmail.com">
+			<img src = "img/icons/email.png" class = "img-responsive center-block" width="50" height="50">
+			</a><br>
+		</div>
+		<div class = "col-sm-1">
+			<a href="https://www.linkedin.com/in/khuangtc/" target="_blank" >
+			<img src = "img/icons/linkedin.png" class = "img-responsive center-block" width="50" height="50">
+			</a><br>
+		</div>
+		<div class = "col-sm-1">
+			<a href="google.com" target="_blank" >
+			<img src = "img/icons/github.png" class = "img-responsive center-block" width="50" height="50">
+			</a><br>
+		</div>
+		<div class = "col-sm-1">
+			<a href="https://twitter.com/trin_panda?lang=en" target="_blank" >
+			<img src = "img/icons/twitter.png" class = "img-responsive center-block" width="50" height="50">
+			</a><br>
+		</div>
+		<div class = "col-sm-1">
+			<a href="mailto:trinpandalab@gmail.com" target="_blank" >
+			<img src = "img/icons/facebook.png" class = "img-responsive center-block" width="50" height="50">
+			</a><br>
+		</div>
+		<div class = "col-sm-1">
+			<a href="https://www.instagram.com/trin.panda.lab/?hl=en" target="_blank" >
+			<img src = "img/icons/instagram.png" class = "img-responsive center-block" width="50" height="50">
+			</a><br>
+		</div>
+	</div>
+ 		
+
+<!-- Copyright-->
+		<hr>
+		<div class="row">
+			<div class="col-xs-12">
+				<footer>
+					<p>&copy; Copyright 2018 Kevin Huang, Updated April 25, 2018</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<!-- ######################################################################## TAB ######################################################################## -->
+<!-- ######################################################################### 5 ######################################################################### -->
+	<div id="med" class="tab-pane fade">
+	<div class = "container-fluid">
+		<div class="text-center">
+		<h2>MEDIA</h2>
+		</div>
+<a href = "http://www.trincoll.edu/NewsEvents/NewsArticles/pages/ZeroRoboticsInternshipFall2017.aspx" target = "blank">Mariam Zero Robotics</a></br>
+<a href = "http://www.trincoll.edu/NewsEvents/NewsArticles/pages/RobotContest2018PostEvent.aspx" target = "blank">ENGR 120 Trinity College Fire Fighting Home Robot Contest</a>
+	</div>
+
+
+
+<!-- Copyright-->
+		<hr>
+		<div class="row">
+			<div class="col-xs-12">
+				<footer>
+					<p>&copy; Copyright 2018 Kevin Huang, Updated April 25, 2018</p>
+				</footer>
+			</div>
+		</div>
+
+	</div>
+
+
+<!-- ######################################################################## END STUFF ######################################################################## -->
+</div>
+</div>
+
+
+<script type="text/javascript">
+    $(function() {
+        $("a[data-tab-destination]").on('click', function(e) {
+            e.preventDefault();
+            // Works
+            var boo = $(this).attr('data-tab-destination');
+            $("#" + "peop").tabs("option","active",2);
+            // Doesn't work
+            var hashtag = $(this.hash);
+            var target = hashtag.length ? hashtag : $('[name=' + this.hash.slice(1) + ']');
+
+            if (target.length) {
+                $('html, body').animate({scrollTop: target.offset().top}, 1000);
+                return false;
+            }
+        });
+    });
+</script>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/contact.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/custom.css">
+</body>
+</html>                            

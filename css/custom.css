@@ -1,0 +1,146 @@
+
+.text-trin{
+  color: #862633;
+}
+
+.navbar-trin {
+    background-color: #862633;
+    border-color: #818387;
+};
+
+.trin-brand{
+color: #FFFFFF;
+}
+
+.navbar-trin .navbar-header{
+color: #FFFFFF;
+}
+
+.navbar-trin .navbar-brand{
+color: #FFFFFF;
+}
+
+.navbar-trin .navbar-brand:hover{
+color: #FFFFFF;
+}
+
+.navbar-trin .navbar-brand:focus {
+    color: #FFFFFF;
+}
+
+.navbar-trin .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-trin .navbar-nav > li > a:hover
+{
+    background-color: #A7A8AA;
+}
+
+.navbar-trin .navbar-nav > li > a:focus
+{
+    background-color: transparent;
+}
+
+.navbar-trin .navbar-nav > li > a:active
+{
+    background-color: #000000;
+}
+
+
+.navbar-trin .navbar-nav > .active > a,
+.navbar-trin .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.navbar-trin .navbar-nav > .active > a:hover{
+background-color: #A7A8AA;
+}
+
+.navbar-trin .navbar-nav > .active > a:active{
+background-color: #000000;
+}
+
+.navbar-trin .navbar-text {
+    color: #000000;
+}
+
+.navbar-trin .navbar-toggle, 
+.navbar-trin .navbar-toggle:active 
+{
+    border-color: #FFFFFF;
+}
+
+.navbar-trin .navbar-toggle:hover,
+.navbar-trin .navbar-toggle > li > a:hover,
+.navbar-trin .navbar-toggle > .active > a:hover{
+background-color: #000000;
+}
+
+
+.navbar-trin .navbar-toggle:focus {
+    background-color: #000000;
+    border-color: #FFFFFF;
+}
+
+.navbar-trin .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+.navbar .btn-group .dropdown-menu li > a:active{
+background-color: #000000;
+
+
+
+}
+
+
+.navbar-trin .navbar-toggle:hover {
+
+background-color: #FFFFFF;
+}
+
+
+
+
+html {
+  overflow-y: scroll;
+}
+
+@import "compass/css3";
+
+/**
+reference:
+http://stackoverflow.com/a/20548578
+http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
+*/
+.col-align {
+  float: none;
+  display: inline-block;
+  
+  &--top {
+    vertical-align: top;
+  }
+  &--center {
+    vertical-align: middle;
+  }
+  &--bottom {
+    vertical-align: bottom;
+  }
+}
+.v-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#wrapper {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin-bottom: 25px;
+}
